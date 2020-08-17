@@ -6,6 +6,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: url(../images/header.jpeg) no-repeat;
+    -webkit-background-size:contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
 
 /* Start Navbar */
 .navbar{
