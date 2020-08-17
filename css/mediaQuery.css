@@ -7,6 +7,9 @@
         -o-background-size: cover;
         background-size: cover;
     }
+    .container{
+        background: none;
+    }
     .navbar .navbar-brand{
         font-size: 34px;
     }
