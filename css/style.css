@@ -6,13 +6,13 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     background: url(../images/header.jpeg) no-repeat;
     -webkit-background-size:contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-}
+} */
 
 /* Start Navbar */
 .navbar{
@@ -136,7 +136,7 @@ section form input,section form select {
 }
 .right img{
     width: 66%;
-    min-height: 600px;
+    min-height: 500px;
 }
 .right .right_title{
     margin-left: 34px;

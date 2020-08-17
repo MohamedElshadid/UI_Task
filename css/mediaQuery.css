@@ -59,6 +59,13 @@
     }
 }
 @media(min-width:768px) and (max-width:991px){
+    body{
+        background:url(../images/smheader.jpeg) no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
     .navbar .navbar-brand{
         font-size: 34px;
     }
@@ -66,30 +73,28 @@
         margin-left: 0;
     }
     .header{
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 0;
     }
     .header2{
         font-size: 24px;
     }
-    section form{
+    /* section form{
         width: 100%;
-    }
+    } */
 
     .right .right_title{
         font-size: 22px;
     }
     .right .right_title2{
-       position: relative;
-       left: 40%;
        font-size: 21px;
     }
+    
     .right img {
-        min-height: 250px;
+        min-height: 300px;
         width: 70%;
     }
     .btn_home{
-        font-size: 21px;
         border-radius: 18px;
     }
     section form input,section form select {
@@ -121,7 +126,7 @@
     }
 }
 
-@media (min-width:1200px) and (max-width:1300px)
+@media (min-width:1200px) and (max-width768px)
 {
 
     .right .right_title2{
@@ -129,7 +134,12 @@
     
     }
 }
-@media (min-width: 468px)
+/* @media(min-width:768px){
+    .container{
+        max-width: 640px;
+    }
+} */
+@media (min-width: 1200px)
 {
     .container {
         max-width: 1300px;
