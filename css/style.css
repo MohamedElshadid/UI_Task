@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Navbar */
+.navbar{
+    border-bottom: 1px solid rgb(233, 226, 226);
+    width: 95% !important;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 22px;
+    color: #e81c70;
+}
+.navbar .navbar-brand:hover{
+    color: #e81c70;
+}
+.navbar .navbar-nav{
+    margin-left: 40px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #000;
+    font-weight: 600;
+    transition:all 0.5s ease;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #e81c70;
+}
+.navbar-light .navbar-toggler {
+    color: #000000 ;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+    outline: none;
+}
+.nav_form {
+    width: 100%;
+    max-width: 600px;
+}
+.nav_form .inner-form .input-field {
+    width: 100%;
+    position: relative;
+}
+.nav_form .inner-form .input-field .btn-search {
+    width: 55px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav_form .inner-form .input-field input{
+    background-color: #ced4da;
+}
+.nav_form .inner-form .input-field .btn-search svg {
+    fill: #333;
+    width: 40px;
+    height: 40px;
+    transition: all .2s ease-out, color .2s ease-out;
+}
+
+.nav_form .inner-form .input-field .btn-search:hover, form .inner-form .input-field .btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.nav_form .inner-form .input-field .btn-search:hover svg,form .inner-form .input-field .btn-search:focus svg {
+    fill: #000;
+}
+.arrow-right {
+    width: 0;
+    top: 0px;
+    height: 0;
+    /* left: 0; */
+    z-index: -1;
+    right: 0%;
+    position: absolute;
+    border-bottom: 156px solid transparent;
+    border-right: 156px solid #c8f5e8;
+  }
+/* End Navbar */
+
+/* Start Signup */
+
+section{
+    width: 97% !important;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding-left: 0;
+    padding-right: 0;
+}
+section form{
+    width: 90%;
+}
+section form input,section form select {
+    background-color: #ced4da !important;
+    padding: 10px !important;
+    font-weight: bold;
+}
+.btn_home{
+    background-color:#e81c70;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+}
+.right{
+    margin-top: 100px;
+    
+}
+.right img{
+    width: 66%;
+    min-height: 600px;
+}
+.right .right_title{
+    margin-left: 34px;
+}
+.right .right_title2{
+    position: absolute;
+    left: 50%;
+
+}
+/* End signup */
